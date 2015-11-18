@@ -1,0 +1,3 @@
+module MailClient {
+	requires Mail;
+}
