@@ -1,4 +1,4 @@
 module Mail {
-	exports de.qaware.mail;
-	requires java.base;
+    requires MailAPI;
+    provides de.qaware.mail.MailSender with de.qaware.mail.impl.MailSenderImpl;
 }

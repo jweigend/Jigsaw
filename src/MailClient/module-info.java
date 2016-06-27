@@ -1,3 +1,4 @@
 module MailClient {
-	requires Mail;
+    requires MailAPI;
+    uses de.qaware.mail.MailSender;
 }
